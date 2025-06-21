@@ -1,0 +1,150 @@
+/* project.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.projects-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-left: 5px solid #4a90e2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.project-card a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Centered Back Button Container */
+.back-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* ✅ Back Button Style */
+.back-button-container button {
+  padding: 10px 20px;
+  background-color: #d86405;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button-container button:hover {
+  background-color: #45a049;
+}
+/* project.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.projects-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border-left: 5px solid #4a90e2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 25px 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.project-card a {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Centered Back Button Container */
+.back-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* ✅ Back Button Style */
+.back-button-container button {
+  padding: 10px 20px;
+  background-color: #d86405;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.back-button-container button:hover {
+  background-color: #45a049;
+}

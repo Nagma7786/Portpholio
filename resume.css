@@ -1,0 +1,77 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+header a {
+  color: #007BFF;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+section {
+  padding: 30px 60px;
+  background: #fff;
+  margin: 20px auto;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  color: #ff5722;
+  margin-bottom: 15px;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+h3 {
+  color: #333;
+  margin-top: 20px;
+}
+
+footer {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* 👇 Centered Back Button Container */
+.back-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* 👇 Back to Home Button Style */
+button {
+  padding: 10px 20px;
+  background-color: #d86405;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}

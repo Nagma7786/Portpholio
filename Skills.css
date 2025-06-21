@@ -1,0 +1,74 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.skills-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.skills-section h2 {
+  color: #ff5722;
+  margin-bottom: 10px;
+}
+
+.skills-section ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  background-color: #fff;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* ✅ Back Button Styling */
+.back-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.back-button-container button {
+  padding: 10px 20px;
+  background-color: #d86405;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.back-button-container button:hover {
+  background-color: #45a049;
+}
